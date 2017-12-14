@@ -20,3 +20,14 @@ T ObStack<T>::peek()
 {
 	return this->at(this->size() - 1);
 }
+/*
+int main(){
+ObStack<IntStack> *s=new ObStack<IntStack>();
+IntStack *k=new IntStack(15);
+k->push(10);
+s->push(*k);
+cout<<k->pop();
+}
+
+*/
+//Unit Test done - Radhika
